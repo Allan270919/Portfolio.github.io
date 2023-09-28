@@ -1,0 +1,280 @@
+/*FUNDO DA PAGE*/
+body{
+    background-image: url("img/Fundo.png") ;
+    background-size: 1366px 768px; 
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/*FOTO DE PERFIL*/
+.perfil:hover{width: 160px; border: 5px;}
+.perfil{
+    position: absolute;
+    width: 150px;
+    border-radius: 50%;
+    border: solid white;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*LOGOS DO JAVA CSS HTML*/
+.logos:hover{width: 160px;}
+.logos{
+    position: absolute;
+    width: 150px;
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+
+/*titulo*/
+.titulo1:hover{color: aqua; font-size: 100px;}
+.titulo1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 90px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*titulo2*/
+.titulo2:hover{color: aqua; font-size: 100px;}
+.titulo2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 90px;
+    position: absolute;
+    top: 9%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*titulo3*/
+.titulo3:hover{color: aqua; font-size: 100px;}
+.titulo3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 90px;
+    position: absolute;
+    top: 9%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*titulo4*/
+.titulo4:hover{color: aqua; font-size: 100px;}
+.titulo4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 90px;
+    position: absolute;
+    top: 9%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*BOTÕES*/
+.pagina1{
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: color(black);
+    text-align: center;
+    color: rgb(245, 243, 243);
+    left: 60px;
+    border: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color:white;
+    background-color: rgba(255, 255, 255, 0.822);
+    font-size:30px;
+    position: absolute;
+}
+.pagina1:hover{background-color: black; border-color: aqua; font-size: 32px;}
+
+.pagina2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 120px;
+    text-decoration: color(black);
+    text-align: center;
+    color: rgb(245, 243, 243);
+    left: 60px;
+    border: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color:white;
+    background-color: rgba(255, 255, 255, 0.822);
+    font-size:30px;
+    position: absolute;
+}
+.pagina2:hover{background-color: black; border-color: aqua; font-size: 32px;}
+
+.pagina3{
+    margin:0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    margin-top: 190px;
+    text-decoration: color(black);
+    text-align: center;
+    color: rgb(245, 243, 243);
+    left: 60px;
+    border: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color:white;
+    background-color: rgba(255, 255, 255, 0.822);
+    font-size:30px;
+    position: absolute;
+}
+.pagina3:hover{background-color: black; border-color: aqua; font-size: 32px;}
+
+.pagina4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 260px;
+    text-decoration: color(black);
+    text-align: center;
+    color: rgb(245, 243, 243);
+    left: 60px;
+    border: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color:white;
+    background-color: rgba(255, 255, 255, 0.822);
+    font-size:30px;
+    position: absolute;
+}
+.pagina4:hover{background-color: black; border-color: aqua; font-size: 32px;}
+
+.az{color:black}
+.az:hover{ color:rgb(255, 255, 255);}
+
+/*texto sobre*/
+.sobre:hover{background-color: rgb(253, 253, 253); border-color: aqua; font-size: 22px;}
+.sobre{ font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 180px;
+    text-decoration: color(black);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    left: 310px;
+    border: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color:white;
+    background-color: rgba(255, 255, 255, 0.822);
+    font-size:20px;
+    position: absolute;
+
+}
+.sobre2:hover{background-color: rgb(253, 253, 253); border-color: aqua; font-size: 15px;}
+.sobre2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 260px;
+    text-decoration: color(black);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    left: 318px;
+    border: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color:white;
+    background-color: rgba(255, 255, 255, 0.822);
+    font-size:14px;
+    position: absolute;
+
+}
+
+/*EMBREVE*/
+.embreve1{
+    border-radius: 30px;
+    width: 150px;
+    align-items: center;
+    margin-top: 190px;
+    position:absolute;
+    left: 260px;
+}
+.embreve2{
+    border-radius: 30px;
+    width: 150px;
+    align-items: center;
+    margin-top: 190px;
+    position:absolute;
+    left: 460px;
+}
+.embreve3{
+    border-radius: 30px;
+    width: 150px;
+    align-items: center;
+    margin-top: 190px;
+    position:absolute;
+    left: 660px;
+}
+.embreve4{
+    border-radius: 30px;
+    width: 150px;
+    align-items: center;
+    margin-top: 190px;
+    position:absolute;
+    left: 860px; ;
+}
+.embreve5{
+    border-radius: 30px;
+    width: 150px;
+    align-items: center;
+    margin-top: 400px;
+    position:absolute;
+    left: 260px; ;
+}
+.embreve6{
+    border-radius: 30px;
+    width: 150px;
+    align-items: center;
+    margin-top: 400px;
+    position:absolute;
+    left: 460px; ;
+}
+.embreve7{
+    border-radius: 30px;
+    width: 150px;
+    align-items: center;
+    margin-top: 400px;
+    position:absolute;
+    left: 660px; ;
+}
+.embreve8{
+    border-radius: 30px;
+    width: 150px;
+    align-items: center;
+    margin-top: 400px;
+    position:absolute;
+    left: 860px; ;
+}
+/*CONTATO*/
+.lin1:hover{width: 102px;}
+.lin1{
+    border-radius: 50px;
+    width: 100px;
+    align-items: center;
+    margin-top: 400px;
+    position:absolute;
+    left: 860px; ;
+}
+.git1:hover{width: 102px;}
+.git1{
+    border-radius: 50px;
+    width: 100px;
+    align-items: center;
+    margin-top: 400px;
+    position:absolute;
+    left: 660px; ;
+}
+.insta1:hover{width: 102px;}
+.insta1{
+    border-radius: 50px;
+    width: 100px;
+    align-items: center;
+    margin-top: 400px;
+    position:absolute;
+    left: 460px; ;
+}
+
+
